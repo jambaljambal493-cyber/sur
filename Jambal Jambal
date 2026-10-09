@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хөвсгөл аймаг дахь Политехник коллеж</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Толгой хэсэг -->
+    <header class="header">
+        <div class="logo">
+            <div class="logo-icon">ХП</div>
+            <div>
+                <h2>ХӨВСГӨЛ ПОЛИТЕХНИК</h2>
+                <p>МЭРГЭЖИЛ · МЭДЛЭГ · ИРЭЭДҮЙ</p>
+            </div>
+        </div>
+
+        <nav class="navbar">
+            <a href="#home">Нүүр</a>
+            <a href="#about">Бидний тухай</a>
+            <a href="#courses">Мэргэжил</a>
+            <a href="#news">Мэдээ</a>
+            <a href="#contact">Холбоо барих</a>
+        </nav>
+
+        <a href="#admission" class="nav-button">Элсэлт</a>
+    </header>
+
+    <!-- Нүүр хэсэг -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <span class="tag">ТАВТАЙ МОРИЛНО УУ</span>
+            <h1>
+                ИРЭЭДҮЙГЭЭ<br>
+                <span>ӨӨРӨӨ БҮТЭЭ!</span>
+            </h1>
+            <p>
+                Хөвсгөл аймаг дахь Политехник коллеж.
+                Мэргэжлийн ур чадвар эзэмшиж,
+                мөрөөдлөө бодит амжилт болгоё.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#courses" class="btn primary">Мэргэжлүүд үзэх</a>
+                <a href="#about" class="btn secondary">Дэлгэрэнгүй</a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <div class="image-card">
+                <div class="image-icon">🎓</div>
+                <h3>Чадварлаг мэргэжилтэн</h3>
+                <p>Өнөөдөр суралц. Маргааш бүтээ.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Давуу талууд -->
+    <section class="features">
+        <div class="feature">
+            <span>📚</span>
+            <h3>Чанартай сургалт</h3>
+            <p>Мэдлэг, ур чадвараа хөгжүүлнэ.</p>
+        </div>
+
+        <div class="feature">
+            <span>🛠️</span>
+            <h3>Дадлага сургалт</h3>
+            <p>Мэргэжлийн ур чадвар эзэмшинэ.</p>
+        </div>
+
+        <div class="feature">
+            <span>💼</span>
+            <h3>Ажлын байр</h3>
+            <p>Ирээдүйн ажил мэргэжилдээ бэлтгэнэ.</p>
+        </div>
+
+        <div class="feature">
+            <span>🌱</span>
+            <h3>Хөгжил дэвшил</h3>
+            <p>Өөрийгөө тасралтгүй хөгжүүлнэ.</p>
+        </div>
+    </section>
+
+    <!-- Сургуулийн тухай -->
+    <section class="about section" id="about">
+        <div class="about-visual">
+            <div class="about-symbol">ХП</div>
+            <p>МЭДЛЭГЭЭС УР ЧАДВАР РУУ</p>
+        </div>
+
+        <div class="about-content">
+            <span class="section-label">БИДНИЙ ТУХАЙ</span>
+            <h2>Мэргэжлийн боловсролоор<br>ирээдүйг бүтээнэ</h2>
+            <p>
+                Хөвсгөл аймаг дахь Политехник коллеж нь
+                суралцагчдад мэргэжлийн мэдлэг, ур чадвар
+                эзэмшүүлэх, хөдөлмөрийн зах зээлд бэлтгэх
+                зорилготой сургалтын байгууллага юм.
+            </p>
+
+            <ul>
+                <li>✓ Мэргэжлийн болон техникийн боловсрол</li>
+                <li>✓ Онол, дадлагыг хослуулсан сургалт</li>
+                <li>✓ Хувь хүний хөгжил, ур чадвар</li>
+            </ul>
+
+            <a href="#contact" class="btn primary">Бидэнтэй холбогдох</a>
+        </div>
+    </section>
+
+    <!-- Мэргэжлүүд -->
+    <section class="courses section" id="courses">
+        <div class="section-heading">
+            <span class="section-label">СУРГАЛТЫН ЧИГЛЭЛ</span>
+            <h2>Өөрийн ирээдүйг сонго</h2>
+            <p>Сонирхолдоо тохирсон мэргэжлээ нээгээрэй.</p>
+        </div>
+
+        <div class="course-grid">
+            <div class="course-card">
+                <div class="course-icon">💻</div>
+                <h3>Мэдээллийн технологи</h3>
+                <p>Компьютер, программ хангамж,
+                   мэдээллийн технологийн мэдлэг.</p>
+                <a href="#contact">Дэлгэрэнгүй →</a>
+            </div>
+
+            <div class="course-card">
+                <div class="course-icon">🔧</div>
+                <h3>Авто засвар</h3>
+                <p>Автомашины бүтэц, засвар үйлчилгээ,
+                   оношилгооны ур чадвар.</p>
+                <a href="#contact">Дэлгэрэнгүй →</a>
+            </div>
+
+            <div class="course-card">
+                <div class="course-icon">🍳</div>
+                <h3>Тогооч</h3>
+                <p>Хоол үйлдвэрлэл, технологи,
+                   хүнсний эрүүл ахуй.</p>
+                <a href="#contact">Дэлгэрэнгүй →</a>
+            </div>
+
+            <div class="course-card">
+                <div class="course-icon">🧵</div>
+                <h3>Оёдол, хувцас үйлдвэрлэл</h3>
+                <p>Хувцасны загвар, эсгүүр,
+                   оёдлын технологи.</p>
+                <a href="#contact">Дэлгэрэнгүй →</a>
+            </div>
+        </div>
+
+        <p class="note">
+            Тайлбар: Эдгээр нь загварын жишээ бөгөөд
+            элсэлтийн тухайн жилийн мэргэжлийн жагсаалт,
+            хөтөлбөрийг сургуулиас баталгаажуулна уу.
+        </p>
+    </section>
+
+    <!-- Элсэлтийн хэсэг -->
+    <section class="admission" id="admission">
+        <div>
+            <span class="section-label">ЭЛСЭЛТ</span>
+            <h2>Ирээдүйнхээ эхлэлийг өнөөдөр тавь!</h2>
+            <p>
+                Элсэлтийн хөтөлбөр, бүртгэл болон
+                шаардлагатай материалын талаар мэдээлэл аваарай.
+            </p>
+        </div>
+
+        <a href="https://www.khuvsgulpolytech.edu.mn/admission"
+           target="_blank" rel="noopener noreferrer"
+           class="btn admission-btn">
+            Элсэлтийн мэдээлэл авах →
+        </a>
+    </section>
+
+    <!-- Мэдээ -->
+    <section class="news section" id="news">
+        <div class="section-heading">
+            <span class="section-label">МЭДЭЭ, МЭДЭЭЛЭЛ</span>
+            <h2>Сургуулийн онцлох мэдээлэл</h2>
+        </div>
+
+        <div class="news-grid">
+            <article class="news-card">
+                <div class="news-picture">🏫</div>
+                <div class="news-body">
+                    <span>СУРГУУЛИЙН МЭДЭЭ</span>
+                    <h3>Сургуулийн үйл ажиллагаа</h3>
+                    <p>Сургалт, хөгжлийн үйл ажиллагааны
+                       талаарх мэдээлэлтэй танилцаарай.</p>
+                    <a href="https://www.khuvsgulpolytech.edu.mn/"
+                       target="_blank" rel="noopener noreferrer">
+                        Дэлгэрэнгүй →
+                    </a>
+                </div>
+            </article>
+
+            <article class="news-card">
+                <div class="news-picture">🎓</div>
+                <div class="news-body">
+                    <span>ЭЛСЭЛТ</span>
+                    <h3>Элсэгчдэд зориулсан мэдээлэл</h3>
+                    <p>Элсэлтийн журам болон мэргэжлийн
+                       чиглэлийн мэдээллийг үзээрэй.</p>
+                    <a href="https://www.khuvsgulpolytech.edu.mn/admission"
+                       target="_blank" rel="noopener noreferrer">
+                        Дэлгэрэнгүй →
+                    </a>
+                </div>
+            </article>
+
+            <article class="news-card">
+                <div class="news-picture">📢</div>
+                <div class="news-body">
+                    <span>АЛБАН ЁСНЫ МЭДЭЭ</span>
+                    <h3>Шинэ мэдээлэл, зарлал</h3>
+                    <p>Сургуулийн албан ёсны сайтаас
+                       шинэ мэдээ, зарлалыг уншаарай.</p>
+                    <a href="https://www.khuvsgulpolytech.edu.mn/"
+                       target="_blank" rel="noopener noreferrer">
+                        Дэлгэрэнгүй →
+                    </a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Холбоо барих -->
+    <section class="contact section" id="contact">
+        <div class="section-heading">
+            <span class="section-label">ХОЛБОО БАРИХ</span>
+            <h2>Бидэнтэй холбогдоорой</h2>
+            <p>Танд хэрэгтэй мэдээллийг биднээс аваарай.</p>
+        </div>
+
+        <div class="contact-grid">
+            <div class="contact-card">
+                <span>📍</span>
+                <h3>Хаяг</h3>
+                <p>Хөвсгөл аймаг, Мөрөн сум, 13-р хороо</p>
+            </div>
+
+            <div class="contact-card">
+                <span>📞</span>
+                <h3>Утас</h3>
+                <p><a href="tel:+97699382221">9938-2221</a></p>
+                <p><a href="tel:+97686922244">8692-2244</a></p>
+            </div>
+
+            <div class="contact-card">
+                <span>✉️</span>
+                <h3>И-мэйл</h3>
+                <p>
+                    <a href="mailto:polytechniccollege.kh@gmail.com">
+                        polytechniccollege.kh@gmail.com
+                    </a>
+                </p>
+            </div>
+        </div>
+
+        <div class="official-link">
+            <p>Сургуулийн албан ёсны веб сайт</p>
+            <a href="https://www.khuvsgulpolytech.edu.mn/"
+               target="_blank" rel="noopener noreferrer">
+                www.khuvsgulpolytech.edu.mn →
+            </a>
+        </div>
+    </section>
+
+    <!-- Хөл хэсэг -->
+    <footer class="footer">
+        <div class="footer-logo">ХӨВСГӨЛ ПОЛИТЕХНИК</div>
+        <p>Мэргэжил · Мэдлэг · Ирээдүй</p>
+        <p class="copyright">
+            © 2026 Хөвсгөл аймаг дахь Политехник коллеж.
+            Сургалтын загвар веб сайт.
+        </p>
+    </footer>
+
+</body>
+</html>
